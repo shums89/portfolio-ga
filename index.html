@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.min.css">
+	<script src="./js/tabs.js" defer></script>
 </head>
 
 <body>
@@ -67,7 +68,7 @@
 						</div>
 						<img class="offer__photo" src="./img/photo.png" alt="Фото">
 					</div>
-					
+
 					<a href="#design" class="main__scroll" aria-label="к следующему экрану"></a>
 
 				</div>
@@ -82,10 +83,8 @@
 		<div class="container">
 			<div class="design-wrapper">
 				<div class="design-block">
-					<img src="img/example/image-1.png" alt="A 200" class="feature__img design-block__img"
-						data-tabs-field="interior">
-					<img src="img/example/image-2.png" alt="A 200" class="feature__img design-block__img hidden"
-						data-tabs-field="body">
+					<img src="img/example/image-1.png" alt="A 200" class="feature__img design-block__img" data-tabs-field="interior">
+					<img src="img/example/image-2.png" alt="A 200" class="feature__img design-block__img hidden" data-tabs-field="body">
 					<div class="design-text">
 						<h2 class="section__title design__title">
 							Портфолио&nbsp;</h2>
@@ -94,8 +93,7 @@
 						</h2>
 						<ul class="design-list">
 							<li>
-								<button type="button" class="design-list__item design-list__item_active"
-									data-tabs-handler="interior" data-some-attr="attr">Примеры сайтов</button>
+								<button type="button" class="design-list__item design-list__item_active" data-tabs-handler="interior" data-some-attr="attr">Примеры сайтов</button>
 							</li>
 							<li>
 								<button type="button" class="design-list__item" data-tabs-handler="body">Примеры приложений</button>
